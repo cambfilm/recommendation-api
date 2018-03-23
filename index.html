@@ -6,28 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-
-
+    <h1>Taniya &amp; Cameron's Recommendations</h1>
+    <div class="container">
     <form id="form">
         <h2>Choose a category</h2>
-        <select name="category">
-            <option value="band">Band</option>
-            <option value="movie">Movie</option>
-            <option value="book">Book</option>
-            <option value="show">Show</option>
-            <option value="game">Game</option>
-        </select>
-        <h2>What are you favorites?</h2>
-        <textarea value="search" cols="20" rows="10"></textarea>
-        <button>Fetch</button>
-    </form>
+        <div class="custom-select">
+            <select name="category">
+                <option value="band">Band</option>
+                <option value="movie">Movie</option>
+                <option value="book">Book</option>
+                <option value="show">Show</option>
+                <option value="game">Game</option>
+            </select>
+        </div>
 
-    <h2>You might also like...</h2>
-    <div id="results"></div>
+        <h2>What are your favorites?</h2>
+        <textarea value="search" cols="20" rows="10"></textarea>
+        <button>FETCH</button>
+    </form>
+    </div>
+    
+    <div id="results">
+        <h2>You might also like...</h2>
+    </div>
+    
 </body>
 
 </html>

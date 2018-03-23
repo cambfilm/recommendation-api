@@ -14,7 +14,7 @@ function send(event) {
     // get the search
     const search = document.querySelector("textarea").value;
 
-    const url = `https://tastedive.com/api/similar?q=${search}&k=303777-recommen-Z9BY1TA9`;
+    const url = `https://tastedive.com/api/similar?q=${search}&k=303777-recommen-Z9BY1TA9&type=${category}`;
 
     const settings = {
         method: "GET"

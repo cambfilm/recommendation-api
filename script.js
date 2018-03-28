@@ -33,7 +33,7 @@ function displayResults(json) {
     // find results div
     const tempDiv = document.getElementById("results-list");
     const resultsDiv = document.querySelector("#results");
-    if(tempDiv !== undefined){
+    if(tempDiv !== null){
         tempDiv.remove();
     }
     // create <span> for each result
